@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="@dimen/dp_38"
+    android:layout_height="@dimen/dp_38"
+    android:id="@+id/iv_header"
+    android:layout_marginTop="@dimen/dp_45"
+    android:src="@mipmap/mm"
+    android:layout_marginLeft="@dimen/dp_20"/>
+    <TextView
+        android:text="评论者"
+        android:layout_alignTop="@id/iv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_toRightOf="@id/iv_header"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textColor="@color/c_373737"/>
+    <TextView
+        android:text="2018"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:textSize="@dimen/dp_10"
+        android:layout_toRightOf="@id/iv_header"
+        android:layout_below="@id/tv_name"
+        android:textColor="@color/c_999999"/>
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_13"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_below="@id/tv_time"
+        android:layout_alignLeft="@id/tv_time"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/c_636363"
+        android:text="冲着心脏音博物馆去的，很早之前就看过介绍，真得值得"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rec_imgs"
+        android:layout_alignLeft="@id/tv_content"
+        android:layout_marginRight="@dimen/dp_11"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@color/c_dcdcdc"
+        android:layout_below="@+id/tv_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_alignLeft="@id/tv_content"
+        android:layout_below="@+id/recycler"
+        android:layout_marginRight="@dimen/dp_11"
+        android:background="@color/c_dcdcdc"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+</RelativeLayout>

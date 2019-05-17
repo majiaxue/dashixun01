@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/item_kaquan"
+    android:icon="@drawable/icon_me_kaquan"
+    android:id="@+id/item1"
+    />
+    <item
+        android:title="@string/item_xingcheng"
+        android:icon="@drawable/icon_me_yigou"
+        android:id="@+id/item2"
+        />
+    <item
+        android:title="@string/item_collect"
+        android:icon="@drawable/icon_me_ziliao"
+        android:id="@+id/item3"
+        />
+    <item
+        android:title="@string/item_guanzhu"
+        android:icon="@drawable/icon_me_guanzhu"
+        android:id="@+id/item4"
+        />
+</menu>

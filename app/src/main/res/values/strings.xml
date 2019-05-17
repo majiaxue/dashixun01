@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">travel02</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="conn_error">连接失败</string>
+    <string name="conn_timeout">连接超时</string>
+    <string name="net_error">网络错误</string>
+    <string name="parse_error">解析异常</string>
+    <string name="net_unused">当前网络不可用</string>
+    <string name="agree_protocol">登录注册即同意到处旅行用户协议</string>
+    <string name="for_more_service">您好,为了获取更好的服务</string>
+    <string name="login_app">请登录到处旅行</string>
+    <string name="contry_code">+86</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="send_verify">发送验证码</string>
+    <string name="or">or</string>
+    <string name="send_again">重新发送</string>
+    <string name="input_verify">请输入验证码</string>
+    <string name="wait_please">请稍后...</string>
+    <string name="login_success">登陆成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="oauth_cancel">取消登录</string>
+    <string name="oauth_error">出现错误</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_text">怎么玩</string>
+    <string name="banmi_text">伴米</string>
+    <string name="viety_fail">获取验证码失败</string>
+    <string name="verify_code">验证码：</string>
+    <string name="wait_plase">请稍后</string>
+    <string name="tv_username">林小姐</string>
+    <string name="tv_special_name">四体不勤五谷不分人懒嘴馋花痴健忘</string>
+    <string name="tv_bianji">编辑</string>
+    <string name="tv_money">我的钱包</string>
+    <string name="tv_my_money">99</string>
+    <string name="yuan">元</string>
+    <string name="yinqu">赢取奖金</string>
+    <string name="item_kaquan">我的卡券</string>
+    <string name="item_xingcheng">已购行程</string>
+    <string name="item_collect">我的收藏</string>
+    <string name="item_guanzhu">我的关注</string>
+    <string name="guan">441人关注</string>
+    <string name="location">东京</string>
+    <string name="person_nmae">个性签名</string>
+    <string name="tv_down">完成</string>
+    <string name="takePhoto">拍照</string>
+    <string name="photo">从手机相册选择</string>
+    <string name="cancel">取消</string>
+    <string name="lead_01">严选当地人的</string>
+    <string name="lead_02">私藏路线</string>
+    <string name="find">发现</string>
+    <string name="center">我的</string>
+</resources>

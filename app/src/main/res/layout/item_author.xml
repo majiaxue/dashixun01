@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="@dimen/dp_52"
+    android:layout_height="@dimen/dp_52"
+    android:src="@mipmap/mm"
+    android:layout_marginTop="@dimen/dp_20"
+    android:layout_marginLeft="@dimen/dp_21"
+    android:id="@+id/iv_header"/>
+    <TextView
+        android:layout_toRightOf="@id/iv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_marginTop="@dimen/dp_26"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:text="伴米名字"
+        android:textColor="@color/c_373737"
+        android:textSize="@dimen/sp_16"/>
+    <TextView
+        android:text="半米职业"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/c_636363"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_occup"
+        android:layout_below="@id/tv_name"
+        android:layout_alignLeft="@id/tv_name"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_city"
+        android:text="北京市"
+        android:textColor="@color/c_999999"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_40"
+        />
+    <TextView
+        android:layout_margin="@dimen/dp_21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_content"
+        android:layout_below="@+id/iv_header"
+        android:text="@string/lead_02"
+        android:textColor="@color/c_636363"
+        android:textSize="@dimen/sp_14"/>
+</RelativeLayout>

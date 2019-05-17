@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/guide_03"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="@dimen/dp_127"
+        android:layout_height="@dimen/dp_40"
+        android:id="@+id/bt"
+        android:text="立即体验"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/dp_43"
+        android:background="@drawable/select_button"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

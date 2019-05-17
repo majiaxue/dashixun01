@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    android:id="@+id/ll_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:background="@color/white"
+            android:id="@+id/toolBar">
+
+            <TextView
+                android:gravity="center"
+                android:text="个人信息"
+                android:id="@+id/tb_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/c_333333"
+                android:layout_marginLeft="@dimen/dp_120"
+                android:layout_marginBottom="@dimen/dp_14"/>
+
+            <TextView
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="wrap_content"
+                android:text="完成"
+                android:id="@+id/tb_finished"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/c_FA6A13"
+                android:layout_marginRight="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_90"
+                android:layout_marginBottom="@dimen/dp_14"/>
+        </android.support.v7.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_3"
+        android:background="@drawable/toolbar_gr"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_130"
+        app:cardBackgroundColor="@color/c_f0f0f0"
+        app:cardCornerRadius="@dimen/dp_6"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:maxLength="27"
+                android:maxLines="3"
+                android:id="@+id/et_info"
+                android:layout_marginLeft="@dimen/dp_14"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_marginRight="@dimen/dp_14"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/c_999999"
+                android:hint="伴小米"
+                android:gravity="top"
+                android:background="@color/transparent"/>
+
+            <TextView
+                android:id="@+id/text_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_17"
+                android:layout_marginRight="@dimen/dp_12"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/c_999999"
+                android:text="3/27"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv_big_header"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_230"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:src="@mipmap/mm"/>
+
+</LinearLayout>

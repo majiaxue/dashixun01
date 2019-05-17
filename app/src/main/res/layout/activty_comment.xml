@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="全部评价"
+                android:textColor="@color/c_333333"
+                android:textSize="@dimen/sp_16" />
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_3"
+            android:layout_below="@id/toolbar" />
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recView"
+            android:background="@color/c_eaeaea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view1"></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
